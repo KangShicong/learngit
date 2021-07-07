@@ -1,0 +1,61 @@
+mkdir <name>
+cd <name>
+rm <file>
+pwd
+ls
+git init
+git add <file>
+git commit -m "message"
+
+git status
+git diff <file>
+
+git log
+git log --pretty=oneline
+git reflog
+git reset --hard HEAD^
+git reset --hard commit_id
+
+git restore <file>
+git restore --staged <file>
+git rm <file>
+
+ssh-keygen -t rsa -C "youremail@example.com"
+git remote add origin git@github.com:KangShicong/repo-name.git
+git push -u origin master
+git push origin master
+git remote -v
+git remote rm <name> 
+git clone git@github.com:KangShicong/repo-name.git
+
+git branch
+git branch <name>
+git switch <name> »ò git checkout <name>
+git switch -c <name> »ò git checkout -b <name>
+git merge <name>
+git branch -d <name>
+
+git log --graph --pretty=oneline
+git merge --no-ff -m "message" <name>
+git stash
+git stash list
+git stash apply stash@{number}
+git stash drop stash@{number}
+git stash pop stash@{number}
+git cherry-pick <commit>
+git branch -D <name>
+
+git switch -c <branch-name> <repo-name>/<branch-name>
+git pull
+git branch --set-upstream-to=origin/<branch-name> <branch-name>
+git rebase
+
+git tag <tag-name>
+git tag <tag-name> commit_id
+git tag -a <tag-name> -m "message"
+git tag
+git show <tag-name>
+git push origin <tag-name>
+git push origin --tags
+git tag -d <tag-name>
+git push origin :refs/tags/<tag-name>
