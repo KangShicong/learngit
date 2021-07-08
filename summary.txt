@@ -11,6 +11,7 @@
 
 查看版本日志: git log
 用简洁的形式显示版本日志: git log --pretty=oneline
+用更加简洁的形式显示版本日志: git log --pretty=oneline --abbrev-commit
 查看命令历史: git reflog
 回退到上一个版本: git reset --hard HEAD^
 回退到之前或未来的某一个版本: git reset --hard commit_id
