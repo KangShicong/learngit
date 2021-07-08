@@ -42,7 +42,7 @@
 查看被储藏的工作现场: git stash list
 恢复被储藏的工作现场: git stash apply stash@{number}
 删除储藏的工作现场: git stash drop stash@{number}
-回复并删除被储藏的工作现场: git stash pop stash@{number}
+恢复并删除被储藏的工作现场: git stash pop stash@{number}
 复制一个特定的提交到当前分支: git cherry-pick <commit>
 想要丢弃一个没有被合并的分支: git branch -D <name>
 
